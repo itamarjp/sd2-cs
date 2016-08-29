@@ -12,7 +12,7 @@ public class Cliente extends Thread {
     
     //quando eu quero conversar, para parar de conversar vou enviar pela thread true
     private static boolean done = false;
-    //Objeto do tipo socket
+    //Objeto do tipo socket x
     private Socket conexao;
     
     public Cliente(Socket s){
